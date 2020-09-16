@@ -11,6 +11,6 @@
 [![GitHub Xavi](https://img.shields.io/github/followers/xavivg91?label=follow&style=social)](https://github.com/xavivg91/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Xavier91vg.svg?style=social)](https://twitter.com/Xavier91vg)
 
-In this repository you can check out my Curriculum Vitae created with the [vitae package](https://ropensci.org/blog/2019/01/10/vitae/).
+In this repository you can check out my Curriculum Vitae created using the [R package vitae](https://ropensci.org/blog/2019/01/10/vitae/).
 
 The vitae package makes creating and maintaining a Résumé or CV with R Markdown simple. It provides a collection of LaTeX templates, with helpful functions to add content to the documents. 
