@@ -116,7 +116,7 @@ http://opendata-ajuntament.barcelona.cat/en/finalistes-data-viz-kobe",
 
 "Kaggle", "January 2019", "Notebooks Grandmaster, Discussion Expert and Datasets Expert", "", "The Progression System is designed around four Kaggle categories of data science expertise: Competitions, Kernels, Datasets, and Discussion. Within each category of expertise, there are five performance tiers that can be achieved in accordance with the quality and quantity of work you produce: Novice, Contributor, Expert, Master, and Grandmaster.",
 
-"Ajuntament de Barcelona", "March 2020", "R package published on the Open Data BCN portal", "", "R package to extract data from the Open Data BCN portal and load it directly into the RStudio environment. You can find my project at https://opendata-ajuntament.barcelona.cat/en/histories-us",
+"Ajuntament de Barcelona", "March 2020", "R package published on the Open Data BCN portal", "", "R package to extract data from the Open Data BCN portal and load it directly into your RStudio environment. You can find my project at https://opendata-ajuntament.barcelona.cat/en/histories-us",
 
 "Universitat Oberta de Catalunya", "July 2017", "Data Mining Specialization with honors", "", "Business Analytics: Models and Algorithms (10/10). Text mining, k-nearest neighbors algorithm, decision tree, random forest, k-means clustering, association rules, apriori algorithm.",
 "Universitat Oberta de Catalunya", "July 2017", "Data Mining Specialization with honors", "", "Data Mining: Concepts and Techniques (10/10). Confidence intervals, hypothesis testing, outlier detection, regression and correlation, PCA, ANOVA.",
