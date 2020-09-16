@@ -2,7 +2,7 @@
 surname: Xavier Vivancos García
 position: "Data Science enthusiast | Teaching Assistant @ UOC | Kaggle Grandmaster"
 address: "Hospitalet de Llobregat, Barcelona, 08902"
-phone: +633 24 68 41
+phone: +34 633 24 68 41
 email: "x.vivancos91@hotmail.com"
 twitter: Xavier91vg
 github: xavivg91
