@@ -1,0 +1,147 @@
+---
+surname: Xavier Vivancos García
+position: "Data Science enthusiast | Teaching Assistant @ UOC | Kaggle Grandmaster"
+address: "Hospitalet de Llobregat, Barcelona, 08902"
+phone: +633 24 68 41
+email: "x.vivancos91@hotmail.com"
+twitter: Xavier91vg
+github: xavivg91
+linkedin: xavier-vivancos-garcia-2ab8a6115
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Some information about me
+
+ 
+\footnotesize
+* 2+ years of experience within Business Intelligence 
+ * Hard-working person with problem-solving skills, responsible, self-taught, curious, quick learner and always eager to keep improving
+ *  Interested in Data Science projects. I enjoy analyzing and translating data points to business insights. In particular, highly interested in Sports Analytics
+ * Passionate about Data Storytelling and Kaggle addict. Please, check my [**portfolio**](https://www.kaggle.com/xvivancos)
+ * Love basketball and video games
+
+
+# Employment
+
+```{r}
+library(tibble)
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
+  "Business Intelligence Analyst at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant Cugat
+  del Vallès, Catalonia, Spain", "Translating business needs into technical specifications",
+  "Business Intelligence Analyst at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant Cugat
+  del Vallès, Catalonia, Spain", "Using data visualization tools to provide reports and
+  dashboards",
+  "Business Intelligence Analyst at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant Cugat
+  del Vallès, Catalonia, Spain", "Supporting and maintaining the current dashboards portfolio and     process automation",
+  "Business Intelligence Analyst at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant Cugat
+  del Vallès, Catalonia, Spain", "TOOLS: Power BI, SQL Server Management Studio, SSAS, SSIS,
+  QlikView, Tableau, Microsoft Excel",
+  
+  "Teaching Assistant", "February 2020 - Present", "Universitat Oberta de Catalunya", "Barcelona,
+  Catalonia, Spain", "Giving support to the students in an introductory course of the Master's        degree in Data Science: Data Types and Life Cycle (6 ECTS)", 
+  "Teaching Assistant", "February 2020 - Present", "Universitat Oberta de Catalunya", "Barcelona,
+  Catalonia, Spain", "The subject is divided into three large blocks: (1) Introduction to the data    life cycle, (2) Web Scraping (R or Python) and (3) Introduction to data cleaning and data analysis   (R or Python)",
+  "Teaching Assistant", "February 2020 - Present", "Universitat Oberta de Catalunya", "Barcelona,
+  Catalonia, Spain", "You can find more information about the Master's degree at https://estudios.u
+  c.edu/es/masters-universitarios/data-science/presentacion",
+  
+  "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
+  Catalonia, Spain", "Helping develop reports and analysis",
+  "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
+  Catalonia, Spain", "Identifying patterns and trends in data sets",
+  "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
+  Catalonia, Spain", "Reporting the results back to the relevant members of the business",
+  "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
+  Catalonia, Spain", "TOOLS: Tableau, PostgreSQL, Microsoft Excel") %>% 
+  detailed_entries(what, when, with, where, why)
+```
+
+
+# Education
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, 
+  "Master's degree in Business Intelligence and Big Data", "Universitat Oberta de Catalunya",
+  "Barcelona, Catalonia, Spain", "October 2016 - July 2018",
+  
+  "Bachelor's degree in Telecommunications Engineering", "Universitat Pompeu Fabra",
+  "Barcelona, Catalonia, Spain", "September 2009 - July 2016",) %>% 
+  detailed_entries(degree, dates, uni, loc)
+```
+
+# Skills
+
+
+```{r}
+tribble(
+  ~ with, ~ what, ~ oo, ~ aa, 
+  "Problem-solving, Willingness to learn, Work Ethic, Autonomy, Logical thinking, Detail-Oriented, Multitasking, Perseverance, Curiosity, Creativity, Humility", " ", "Soft Skills", " ",
+  
+  
+  "Data Analysis, Data Visualization, Data Mining, Programming, Machine Learning, Business Intelligence, Mathematics, Statistics", " ", "Hard Skills", " ",
+  
+  "R, Python, SQL, Matlab, DAX", " ", "Programming Languages", " ",
+  
+  "Power BI, Tableau, QlikView", " ", "Data Visualization Tools", " ",
+  
+  "Microsoft SQL Server, SQL Server Analysis Services (SSAS), SQL Server Integration Services (SSIS)", " ", "Business Intelligence Tools", " ",
+  
+  "Markdown, R Markdown, LaTeX", " ", "Markup Languages", " ",
+  
+  "Git, GitHub", " ", "Version Control", " ",
+  
+  "Excel, Word, PowerPoint, Outlook", " ", "Microsoft Office", " ") %>% 
+  detailed_entries(with, what, oo, aa)
+```
+
+\vspace{40mm}
+
+# Honors & Awards 
+
+```{r}
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
+  "Ajuntament de Barcelona", "November 2018", "World Data Viz Challenge 2018 finalist", "", "The main goal of the World Data Viz Challenge is to make visible through data visualizations the challenges of a smart city like Barcelona to be useful in the development of better public policies. The 10 best dataviz or infographics are selected among all the participants.",
+
+"Ajuntament de Barcelona", "November 2018", "World Data Viz Challenge 2018 finalist", "", "My data visualization is available on the Open Data BCN portal:
+http://opendata-ajuntament.barcelona.cat/en/finalistes-data-viz-kobe",
+
+"Kaggle", "January 2019", "Notebooks Grandmaster, Discussion Expert and Datasets Expert", "", "The Progression System is designed around four Kaggle categories of data science expertise: Competitions, Kernels, Datasets, and Discussion. Within each category of expertise, there are five performance tiers that can be achieved in accordance with the quality and quantity of work you produce: Novice, Contributor, Expert, Master, and Grandmaster.",
+
+"Ajuntament de Barcelona", "March 2020", "R package published on the Open Data BCN portal", "", "R package to extract data from the Open Data BCN portal and load it directly into the RStudio environment. You can find my project at https://opendata-ajuntament.barcelona.cat/en/histories-us",
+
+"Universitat Oberta de Catalunya", "July 2017", "Data Mining Specialization with honors", "", "Business Analytics: Models and Algorithms (10/10). Text mining, k-nearest neighbors algorithm, decision tree, random forest, k-means clustering, association rules, apriori algorithm.",
+"Universitat Oberta de Catalunya", "July 2017", "Data Mining Specialization with honors", "", "Data Mining: Concepts and Techniques (10/10). Confidence intervals, hypothesis testing, outlier detection, regression and correlation, PCA, ANOVA.",
+"Universitat Oberta de Catalunya", "July 2017", "Data Mining Specialization with honors", "", "Fundamentals of Data Science (10/10). Data life cycle, Twitter data capture, network analysis, graph theory, metrics and properties of networks, community detection, network visualization, introduction to ggplot2 and ggmap, infographics.") %>% 
+  detailed_entries(what, when, with, where, why)
+```
+
+# Languages
+
+```{r langforeign, results='markup'}
+library(kableExtra)
+
+data.frame(
+  Skill = c("Reading", "Writing", "Listening","Speaking"),
+  Spanish = cell_spec(c(rep("Native", 4)), 'latex'), 
+  Catalan = cell_spec(c(rep("Native", 4)), 'latex'), 
+  English = cell_spec(c("Advanced","Intermediate","Advanced","Intermediate"), 'latex') 
+) %>%
+  kable(booktabs = T, align = 'c', escape = F, format = "latex") %>%
+  kable_styling(full_width = F, font_size = 9) %>% 
+  footnote(
+    footnote_as_chunk = T,
+    general_title = " ",
+  ) %>%
+  column_spec(column = 1:6, width = '2.4cm') #%>% 
+  # add_header_above(' ', line = F) %>%
+  # row_spec(0:4, extra_latex_after = "\\arrayrulecolor{white}") 
+```
