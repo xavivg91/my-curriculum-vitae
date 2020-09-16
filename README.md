@@ -1,5 +1,5 @@
 
-# My Curriculum Vitae
+[![](https://github.com/xavivg91/my-curriculum-vitae/blob/master/cvPreview.PNG)](https://github.com/xavivg91/my-curriculum-vitae/blob/master/MyCV.pdf)
 
 <!-- badges: start -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -14,4 +14,4 @@ In this repository you can check out my Curriculum Vitae created with the [vitae
 
 The vitae package makes creating and maintaining a Résumé or CV with R Markdown simple. It provides a collection of LaTeX templates, with helpful functions to add content to the documents. 
 
-[![](https://github.com/xavivg91/my-curriculum-vitae/blob/master/cvPreview.PNG)](https://github.com/xavivg91/my-curriculum-vitae/blob/master/MyCV.pdf)
+
