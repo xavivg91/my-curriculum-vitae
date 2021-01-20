@@ -7,12 +7,12 @@ email: "x.vivancos91@hotmail.com"
 twitter: Xavier91vg
 github: xavivg91
 linkedin: xavier-vivancos-garcia-2ab8a6115
-date: "`r format(Sys.time(), '%B %Y')`"
+date: '`r Sys.Date()`'
 output: vitae::awesomecv
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+Sys.setlocale("LC_ALL","English")
 library(vitae)
 ```
 
@@ -106,6 +106,10 @@ tribble(
   detailed_entries(with, what, oo, aa)
 ```
 
+$~$
+
+$~$
+
 # Honors & Awards 
 
 ```{r}
@@ -168,6 +172,7 @@ data.frame(
   kable(booktabs = T, align = 'c', escape = F) %>%
   # kable_styling(full_width = F, font_size = 9) %>% 
   footnote(footnote_as_chunk = T, general_title = " ") %>%
+  kable_styling(position = "center", font_size = 8) %>%
   column_spec(column = 1:6, width = '2.4cm') #%>% 
   # add_header_above(' ', line = F) %>%
   # row_spec(0:4, extra_latex_after = "\\arrayrulecolor{white}") 
