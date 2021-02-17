@@ -41,9 +41,11 @@ tribble(
   Cugat del Vallès, Catalonia, Spain", "Supporting and maintaining the current dashboards
   portfolio and process automation",
   "Business Intelligence Analyst at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant
+  Cugat del Vallès, Catalonia, Spain", "Comparing data in different systems to ensure it is           consistent (cross-system consistency checks)",
+  "Business Intelligence Analyst at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant
   Cugat del Vallès, Catalonia, Spain", "TOOLS: Power BI, SQL Server Management Studio, SSAS,
   SSIS, QlikView, Tableau, Microsoft Excel",
-  
+
   "Teaching Assistant", "February 2020 - Present", "Universitat Oberta de Catalunya",
   "Barcelona, Catalonia, Spain", "Giving support to the students in an introductory course of
   the Master's degree in Data Science: Data Types and Life Cycle (6 ECTS)", 
