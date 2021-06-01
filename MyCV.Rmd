@@ -21,9 +21,9 @@ library(vitae)
 \footnotesize
  * 2+ years of experience within Business Intelligence 
  * Hard-working person with problem-solving skills, self-taught, curious, fast learner and always eager to keep improving
- *  Interested in Data Science projects. I enjoy analyzing and translating data points to business insights. In particular, highly interested in Sports Analytics
- * Passionate about Data Storytelling and Kaggle addict. Please, check my [**portfolio**](https://www.kaggle.com/xvivancos)
- * Love basketball and video games
+ * Highly interested in Sports Analytics. I would love to spend my career combining data science with sports
+ * I used to be a Kaggle addict. Please, check my [**profile**](https://www.kaggle.com/xvivancos)
+ * On a more personal note, I love basketball and video games
 
 # Employment
 
@@ -31,18 +31,23 @@ library(vitae)
 library(tibble)
 tribble(
   ~ what, ~ when, ~ with, ~ where, ~ why,
-  "Business Intelligence Developer at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant
+  #"Data Analyst", "May 2021 - Present", "Desigual ", "Barcelona, Catalonia, Spain", 
+  # "",
+  
+  "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
   Cugat del Vallès, Catalonia, Spain", "Translating business needs into technical
   specifications",
-  "Business Intelligence Developer at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant
+  "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
   Cugat del Vallès, Catalonia, Spain", "Using data visualization tools to provide reports and
   dashboards",
-  "Business Intelligence Developer at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant
+  "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
   Cugat del Vallès, Catalonia, Spain", "Supporting and maintaining the current dashboards
   portfolio and process automation",
-  "Business Intelligence Developer at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant
-  Cugat del Vallès, Catalonia, Spain", "Comparing data in different systems to ensure it is           consistent (cross-system consistency checks)",
-  "Business Intelligence Developer at HP Inc.", "February 2019 - Present", "Capgemini ", "Sant
+  "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
+  Cugat del Vallès, Catalonia, Spain", "Comparing data in different systems to ensure it is                consistent (cross-system consistency checks)",
+  "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
+  Cugat del Vallès, Catalonia, Spain", "Maintaining a Power BI Premium workspace to host reports and       dashboards from stakeholders",
+  "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
   Cugat del Vallès, Catalonia, Spain", "TOOLS: Power BI, SQL Server Management Studio, SSAS,
   SSIS, QlikView, Tableau, Microsoft Excel",
 
@@ -62,7 +67,7 @@ tribble(
   "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
   Catalonia, Spain", "Identifying patterns and trends in data sets",
   "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
-  Catalonia, Spain", "Reporting the results back to the relevant members of the business",
+  Catalonia, Spain", "Reporting the results back to stakeholders",
   "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
   Catalonia, Spain", "TOOLS: Tableau, PostgreSQL, Microsoft Excel") %>% 
   detailed_entries(what, when, with, where, why)
@@ -87,15 +92,14 @@ tribble(
 ```{r}
 tribble(
   ~ with, ~ what, ~ oo, ~ aa, 
-  "Problem-solving, Willingness to learn, Work Ethic, Autonomy, Logical thinking,
-  Detail-Oriented, Multitasking, Perseverance, Curiosity, Creativity, Humility", " ", "Soft
+  "Problem-solving, Willingness to learn, Work Ethic, Autonomy, Detail-Oriented, Multitasking,             Perseverance, Curiosity, Creativity, Humility", " ", "Soft
   Skills", " ",
-  "Data Analysis, Data Visualization, Data Mining, Programming, Machine Learning, Business
-  Intelligence, Mathematics, Statistics", " ", "Hard Skills", " ",
+  "Data Manipulation, Data Analysis, Data Visualization, Programming, Business Intelligence, Data Mining,    Machine Learning, Text Mining, Sentiment Analysis, Mathematics, Statistics",
+  " ", "Hard Skills", " ",
   
-  "R, Python, SQL, Matlab, DAX", " ", "Programming Languages", " ",
+  "R, Python, SQL, DAX", " ", "Programming Languages", " ",
   
-  "Power BI, Tableau, QlikView", " ", "Data Visualization Tools", " ",
+  "Power BI, Tableau, QlikView, Shiny", " ", "Data Visualization Tools", " ",
   
   "Microsoft SQL Server, SQL Server Analysis Services (SSAS), SQL Server Integration Services
   (SSIS)", " ", "Business Intelligence Tools", " ",
@@ -123,8 +127,7 @@ tribble(
   "Ajuntament de Barcelona", "November 2020", "World Data Viz Challenge 2020 finalist", "",
   "The data visualization, made by Laura Navarro Soler and me, is available on the Open Data
   BCN portal:
-  https://opendata-ajuntament.barcelona.cat/ca/world-data-viz-challenge-2020-barcelona-kobe-f
-  inalistes",
+  https://opendata-ajuntament.barcelona.cat/en/world-data-viz-challenge-2020-barcelona-kobe-finalistes",
   
   "Ajuntament de Barcelona", "November 2018", "World Data Viz Challenge 2018 finalist", "",    "The main goal of the World Data Viz Challenge is to make visible through data
   visualizations the challenges of a smart city like Barcelona to be useful in the
@@ -174,7 +177,7 @@ data.frame(
   kable(booktabs = T, align = 'c', escape = F) %>%
   # kable_styling(full_width = F, font_size = 9) %>% 
   footnote(footnote_as_chunk = T, general_title = " ") %>%
-  kable_styling(position = "center", font_size = 8) %>%
+  kable_styling(position = "center", font_size = 8, latex_options = "hold_position") %>%
   column_spec(column = 1:6, width = '2.4cm') #%>% 
   # add_header_above(' ', line = F) %>%
   # row_spec(0:4, extra_latex_after = "\\arrayrulecolor{white}") 
