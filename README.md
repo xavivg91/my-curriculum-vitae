@@ -10,7 +10,7 @@
 <!-- badges: end -->
 
 [![GitHub Xavi](https://img.shields.io/github/followers/xavivg91?label=follow&style=social)](https://github.com/xavivg91/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Xavier91vg.svg?style=social)](https://twitter.com/Xavier91vg)
+[![Twitter Follow](https://img.shields.io/twitter/url/https/twitter.com/Xavier91vg.svg?style=social&label=Follow%20%40Xavier91vg)](https://twitter.com/Xavier91vg)
 
 In this repository you can check out my Curriculum Vitae created using the [R package vitae](https://ropensci.org/blog/2019/01/10/vitae/).
 
