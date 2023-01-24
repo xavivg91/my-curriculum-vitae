@@ -43,7 +43,7 @@ tribble(
 "Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
    "Comparing data in different systems to ensure it is consistent (cross-system consistency checks)",
 "Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
-   "Collaborating with IT for both new and ongoing projects/processes",
+   "Collaborating with IT to identify process improvement opportunities and propose system modifications",
 "Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
    "Building a data-driven culture across the organization and empowering self-service analytics with Tableau",
 "Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
