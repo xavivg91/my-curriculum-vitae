@@ -1,6 +1,6 @@
 ---
 surname: Xavier Vivancos García
-position: "Data Science enthusiast | Teaching Assistant @ UOC | Kaggle Grandmaster"
+position: "Data Analyt | Teaching Assistant @ UOC"
 address: "Hospitalet de Llobregat, Barcelona, 08902"
 phone: +34 633 24 68 41
 email: "x.vivancos91@hotmail.com"
@@ -10,6 +10,7 @@ linkedin: xavier-vivancos-garcia-2ab8a6115
 date: '`r Sys.Date()`'
 output: vitae::awesomecv
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 Sys.setlocale("LC_ALL","English")
@@ -19,11 +20,13 @@ library(vitae)
 # Some information about me
 
 \footnotesize
- * 2+ years of experience within Business Intelligence 
- * Hard-working person with problem-solving skills, self-taught, curious, fast learner and always eager to keep improving
- * Highly interested in Sports Analytics. I would love to spend my career combining data science with sports
- * I used to be a Kaggle addict. Please, check my [**profile**](https://www.kaggle.com/xvivancos)
- * On a more personal note, I love basketball and video games
+
+-   +5 years of experience within Business Intelligence
+-   Hard-working person with problem-solving skills, self-taught, curious, fast learner and always eager to keep improving
+-   Broad knowledge in R, SQL, Python and data visualization tools like Power BI and Tableau
+-   Highly interested in Sports Analytics. I would love to spend my career combining data science with sports
+-   I used to be a Kaggle addict. Please, check my profile: https://www.kaggle.com/xvivancos (+1.000 followers, +3.000 upvotes and +4.000 forks)
+-   On a more personal note, I love basketball and video games
 
 # Employment
 
@@ -31,25 +34,53 @@ library(vitae)
 library(tibble)
 tribble(
   ~ what, ~ when, ~ with, ~ where, ~ why,
-  #"Data Analyst", "May 2021 - Present", "Desigual ", "Barcelona, Catalonia, Spain", 
-  # "",
-  
+  "Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "Translating business requirements into technical specifications",
+    "Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "Using data visualization tools to provide reports and dashboards, delivering the data in a useful and appealing way to users",
+"Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "Supporting and maintaining the current dashboards portfolio and process automation",
+"Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "Comparing data in different systems to ensure it is consistent (cross-system consistency checks)",
+"Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "Collaborating with IT for both new and ongoing projects/processes",
+"Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "Building a data-driven culture across the organization and empowering self-service analytics with Tableau",
+"Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "Managing Tableau Cloud content: creating project hierarchies to organize workbooks, requesting user permissions and monitoring site activity",
+  "Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "Holding weekly Tableau sessions: support in calculations, dashboarding, formatting, etc.",
+  "Data Analyst", "May 2021 - Present", "Desigual", "Barcelona, Catalonia, Spain", 
+   "TOOLS: Tableau, Snowflake, Google Analytics, Microsoft Excel") %>% 
+  detailed_entries(what, when, with, where, why)
+```
+
+```{r}
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
   "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
-  Cugat del Vallès, Catalonia, Spain", "Translating business needs into technical
+  Cugat, Catalonia, Spain", "Translating business needs into technical
   specifications",
   "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
-  Cugat del Vallès, Catalonia, Spain", "Using data visualization tools to provide reports and
+  Cugat, Catalonia, Spain", "Using data visualization tools to provide reports and
   dashboards",
   "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
-  Cugat del Vallès, Catalonia, Spain", "Supporting and maintaining the current dashboards
+  Cugat, Catalonia, Spain", "Supporting and maintaining the current dashboards
   portfolio and process automation",
   "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
-  Cugat del Vallès, Catalonia, Spain", "Comparing data in different systems to ensure it is                consistent (cross-system consistency checks)",
+  Cugat, Catalonia, Spain", "Comparing data in different systems to ensure it is                consistent (cross-system consistency checks)",
   "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
-  Cugat del Vallès, Catalonia, Spain", "Maintaining a Power BI Premium workspace to host reports and       dashboards from stakeholders",
+  Cugat, Catalonia, Spain", "Maintaining a Power BI Premium workspace to host reports and       dashboards from stakeholders",
   "Business Intelligence Developer at HP Inc.", "February 2019 - May 2021", "Capgemini", "Sant
-  Cugat del Vallès, Catalonia, Spain", "TOOLS: Power BI, SQL Server Management Studio, SSAS,
-  SSIS, QlikView, Tableau, Microsoft Excel",
+  Cugat, Catalonia, Spain", "TOOLS: Power BI, SQL Server Management Studio, SSAS,
+  SSIS, QlikView, Tableau, Microsoft Excel") %>% 
+  detailed_entries(what, when, with, where, why)
+```
+
+```{r}
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
+
 
   "Teaching Assistant", "February 2020 - Present", "Universitat Oberta de Catalunya",
   "Barcelona, Catalonia, Spain", "Giving support to the students in an introductory course of
@@ -60,8 +91,13 @@ tribble(
   data cleaning and data analysis   (R or Python)", 
   "Teaching Assistant", "February 2020 - Present", "Universitat Oberta de Catalunya",
   "Barcelona, Catalonia, Spain", "You can find more information about the Master's degree at
-  https://estudios.uoc.edu/es/masters-universitarios/data-science/presentacion",
-  
+  https://estudios.uoc.edu/es/masters-universitarios/data-science/presentacion") %>% 
+  detailed_entries(what, when, with, where, why)
+```
+
+```{r}
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
   "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
   Catalonia, Spain", "Helping develop reports and analysis",
   "Data Analyst Internship", "June 2018 - October 2018", "Cronos Group", "Barcelona,
@@ -72,7 +108,6 @@ tribble(
   Catalonia, Spain", "TOOLS: Tableau, PostgreSQL, Microsoft Excel") %>% 
   detailed_entries(what, when, with, where, why)
 ```
-
 
 # Education
 
@@ -86,6 +121,21 @@ tribble(
   "Barcelona, Catalonia, Spain", "September 2009 - July 2016",) %>% 
   detailed_entries(degree, dates, uni, loc)
 ```
+
+$~$
+
+$~$
+
+$~$
+
+$~$
+
+$~$
+
+$~$
+
+$~$
+
 
 # Skills
 
@@ -102,7 +152,7 @@ tribble(
   "Power BI, Tableau, QlikView, Shiny", " ", "Data Visualization Tools", " ",
   
   "Microsoft SQL Server, SQL Server Analysis Services (SSAS), SQL Server Integration Services
-  (SSIS)", " ", "Business Intelligence Tools", " ",
+  (SSIS), Snowflake", " ", "Business Intelligence Tools", " ",
   
   "Markdown, R Markdown, LaTeX", " ", "Markup Languages", " ",
   
@@ -112,11 +162,8 @@ tribble(
   detailed_entries(with, what, oo, aa)
 ```
 
-$~$
 
-$~$
-
-# Honors & Awards 
+# Honors & Awards
 
 ```{r}
 tribble(
@@ -127,28 +174,51 @@ tribble(
   "Ajuntament de Barcelona", "November 2020", "World Data Viz Challenge 2020 finalist", "",
   "The data visualization, made by Laura Navarro Soler and me, is available on the Open Data
   BCN portal:
-  https://opendata-ajuntament.barcelona.cat/en/world-data-viz-challenge-2020-barcelona-kobe-finalistes",
-  
+  https://opendata-ajuntament.barcelona.cat/en/world-data-viz-challenge-2020-barcelona-kobe-finalistes") %>% 
+  detailed_entries(what, when, with, where, why)
+```
+
+
+
+```{r}
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
   "Ajuntament de Barcelona", "November 2018", "World Data Viz Challenge 2018 finalist", "",    "The main goal of the World Data Viz Challenge is to make visible through data
   visualizations the challenges of a smart city like Barcelona to be useful in the
   development of better public policies. The 10 best dataviz or infographics are selected
   among all the participants.",
   "Ajuntament de Barcelona", "November 2018", "World Data Viz Challenge 2018 finalist", "",
   "My data visualization is available on the Open Data BCN portal:
-  http://opendata-ajuntament.barcelona.cat/en/finalistes-data-viz-kobe",
+  http://opendata-ajuntament.barcelona.cat/en/finalistes-data-viz-kobe") %>% 
+  detailed_entries(what, when, with, where, why)
+```
 
+```{r}
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
   "Kaggle", "January 2019", "Notebooks Grandmaster, Discussion Expert and Datasets Expert",
   "", "The Progression System is designed around four Kaggle categories of data science
   expertise: Competitions, Kernels, Datasets, and Discussion. Within each category of
   expertise, there are five performance tiers that can be achieved in accordance with the
   quality and quantity of work you produce: Novice, Contributor, Expert, Master, and
-  Grandmaster.",
+  Grandmaster.") %>% 
+  detailed_entries(what, when, with, where, why)
+```
 
+```{r}
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
   "Ajuntament de Barcelona", "March 2020", "R package published on the Open Data BCN portal",
   "", "R package to extract data from the Open Data BCN portal and load it directly into your
   RStudio environment. You can find my project at
-  https://opendata-ajuntament.barcelona.cat/en/histories-us",
+  https://opendata-ajuntament.barcelona.cat/en/histories-us") %>% 
+  detailed_entries(what, when, with, where, why)
+```
 
+
+```{r}
+tribble(
+  ~ what, ~ when, ~ with, ~ where, ~ why,
   "Universitat Oberta de Catalunya", "July 2017", "Data Mining Specialization with honors",
   "", "Business Analytics: Models and Algorithms (10/10). Text mining, k-nearest neighbors
   algorithm, decision tree, random forest, k-means clustering, association rules, apriori
@@ -162,7 +232,6 @@ tribble(
   visualization, introduction to ggplot2 and ggmap, infographics.") %>% 
   detailed_entries(what, when, with, where, why)
 ```
-
 
 # Languages
 
